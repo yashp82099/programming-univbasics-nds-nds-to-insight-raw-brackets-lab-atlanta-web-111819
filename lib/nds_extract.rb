@@ -26,7 +26,11 @@ def directors_totals(nds)
     y = 0 
     while y < nds[x].length do 
       pp nds[x][:name]
-      pp nds[x][:movies][y][:worldwide_gross]
+      z = 0 
+      while z < nds[x][:movie].lenght do 
+        pp pp nds[x][:movies][z][:worldwide_gross]
+        z += 1 
+      end 
       y +=1
     end
      x += 1 
