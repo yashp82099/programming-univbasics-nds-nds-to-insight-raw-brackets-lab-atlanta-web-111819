@@ -40,6 +40,6 @@ def directors_totals(nds)
     end
      x += 1 
   end 
-  
+  return hash
   nil
 end
