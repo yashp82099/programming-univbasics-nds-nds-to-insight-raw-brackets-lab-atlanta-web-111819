@@ -32,9 +32,9 @@ def directors_totals(nds)
         total += nds[x][:movies][z][:worldwide_gross]
         z += 1 
       end 
-      name = 
-      hash
-      pp nds[x][:name]
+      name = nds[x][:name]
+      hash[name] = total
+       
       
       y +=1
     end
